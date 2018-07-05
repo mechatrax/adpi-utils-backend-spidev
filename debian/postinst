@@ -1,0 +1,30 @@
+#!/bin/sh
+# postinst script for adpi-utils-backend-spidev
+#
+# see: dh_installdeb(1)
+
+set -e
+
+CONFIG=/boot/config.txt
+
+case "$1" in
+    configure)
+        if [ -e $CONFIG ]; then
+            raspi-config nonint do_i2c 0
+            raspi-config nonint do_spi 0
+            raspi-config nonint set_config_var core_freq 250 $CONFIG
+        fi
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

@@ -1,0 +1,18 @@
+Source: adpi-utils-backend-spidev
+Section: misc
+Priority: optional
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.8
+Homepage: https://mechatrax.com/
+Vcs-Git: https://github.com/mechatrax/adpi-utils-backend-spidev.git
+Vcs-browser: https://github.com/mechatrax/adpi-utils-backend-spidev
+
+Package: adpi-utils-backend-spidev
+Architecture: all
+Depends: ${misc:Depends}, python3-adpi
+Provides: adpi-utils-backend
+Conflicts: adpi-utils-backend, adpi-firmware
+Replaces: adpi-utils-backend
+Description: Backend of adpi-utils to control ADPi with SPI
+ This package contains backend files of adpi-utils to control ADPi with SPI.

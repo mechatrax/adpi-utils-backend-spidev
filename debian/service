@@ -1,0 +1,10 @@
+[Unit]
+Description=Initialize ADPi
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/adpi-utils-backend-spidev/adpi-init.sh
+
+[Install]
+WantedBy=multi-user.target
+
