@@ -1,0 +1,2 @@
+./adpi-utils-backend-spidev.py /usr/lib/adpi-utils-backend-spidev/
+./adpi-init.sh /usr/lib/adpi-utils-backend-spidev/

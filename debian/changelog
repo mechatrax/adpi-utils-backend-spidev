@@ -1,0 +1,5 @@
+adpi-utils-backend-spidev (1.0.0) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- Masahiro Honda <honda@mechatrax.com>  Thu, 05 Jul 2018 12:51:12 +0900
