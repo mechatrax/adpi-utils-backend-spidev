@@ -1,3 +1,10 @@
+adpi-utils-backend-spidev (1.0.1) buster; urgency=medium
+
+  * Update debhelper compatibility level to 12
+  * Bump Standards-Version to 4.3.0
+
+ -- Masahiro Honda <honda@mechatrax.com>  Mon, 08 Jul 2019 16:17:40 +0900
+
 adpi-utils-backend-spidev (1.0.0) unstable; urgency=medium
 
   * Initial Release.
