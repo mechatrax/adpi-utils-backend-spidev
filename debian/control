@@ -1,9 +1,9 @@
 Source: adpi-utils-backend-spidev
 Section: misc
 Priority: optional
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Build-Depends: debhelper (>= 12)
-Standards-Version: 4.3.0
+Maintainer: Yuta Kiyonaga <Kiyonaga@mechatrax.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.5.1
 Homepage: https://mechatrax.com/
 Vcs-Git: https://github.com/mechatrax/adpi-utils-backend-spidev.git
 Vcs-browser: https://github.com/mechatrax/adpi-utils-backend-spidev
