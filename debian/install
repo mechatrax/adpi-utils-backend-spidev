@@ -1,2 +1,4 @@
 ./adpi-utils-backend-spidev.py /usr/lib/adpi-utils-backend-spidev/
 ./adpi-init.sh /usr/lib/adpi-utils-backend-spidev/
+./adpi-utils-backend-spidev-init@.service /lib/systemd/system/
+./85-adpi-utils-backend-spidev.rules /lib/udev/rules.d/

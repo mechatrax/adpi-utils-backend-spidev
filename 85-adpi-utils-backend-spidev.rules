@@ -1,0 +1,3 @@
+ACTION=="add", SUBSYSTEM=="spidev", TAG+="systemd", ENV{SYSTEMD_WANTS}+="adpi-utils-backend-spidev-init@%k.service"
+ACTION=="add", SUBSYSTEM=="i2c-dev", TAG+="systemd"
+
