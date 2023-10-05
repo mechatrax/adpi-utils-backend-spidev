@@ -1,3 +1,16 @@
+adpi-utils-backend-spidev (1.0.3) bookworm; urgency=medium
+
+  * Change initialization process to use udev rules
+  * debian/control
+    - Add Uploaders
+    - Bump Standards-Version to 4.6.2
+  * debian/install
+    - Add adpi-utils-backend-spidev-init@.service
+    - Add 85-adpi-utils-backend-spidev.rules
+  * debian/service: Deleted
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Tue, 03 Oct 2023 16:09:46 +0900
+
 adpi-utils-backend-spidev (1.0.2) bullseye; urgency=medium
 
   * debian/compat: Deleted
