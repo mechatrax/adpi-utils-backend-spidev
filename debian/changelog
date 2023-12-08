@@ -1,3 +1,9 @@
+adpi-utils-backend-spidev (1.0.3.1) bookworm; urgency=medium
+
+  * debian/copyright: Update contact information
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Fri, 08 Dec 2023 13:17:57 +0900
+
 adpi-utils-backend-spidev (1.0.3) bookworm; urgency=medium
 
   * Change initialization process to use udev rules
