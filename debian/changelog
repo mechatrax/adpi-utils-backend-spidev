@@ -1,3 +1,10 @@
+adpi-utils-backend-spidev (1.0.2+deb11u1) bullseye; urgency=low
+
+  * debian/copyright: Update contact information
+  * debian/control: Add Uploaders
+
+ -- Masahiro Honda <honda@mechatrax.com>  Mon, 11 Dec 2023 18:12:03 +0900
+
 adpi-utils-backend-spidev (1.0.2) bullseye; urgency=medium
 
   * debian/compat: Deleted
