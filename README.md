@@ -6,10 +6,10 @@ SPI を利用して ADPi に搭載された ADC の操作を行うツール類�
 ## 提供ファイル
 次のファイルがパッケージに含まれています。
 
-### /lib/udev/rules.d/85-adpi-utils-backend-spidev.rules  
+### /usr/lib/udev/rules.d/85-adpi-utils-backend-spidev.rules  
 ADPi のデバイスを定義した設定ファイルです。
 
-### /lib/systemd/system/adpi-utils-backend-spidev-init<span>@</span>.service  
+### /usr/lib/systemd/system/adpi-utils-backend-spidev-init<span>@</span>.service  
 ADPi の初期化を行うサービスの設定ファイルです。
 
 ### /usr/lib/adpi-utils-backend-spidev/adpi-init.sh  
